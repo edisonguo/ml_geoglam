@@ -1,0 +1,184 @@
+band_id: 0
+[0]
+loading data: 1 of 6 tiles, h28v11, year:2018, month:1, day:1, x:(3649332, 84), y:(3649332, 3)
+loading data: 1 of 6 tiles, h28v11, year:2018, month:3, day:2, x:(7300734, 84), y:(7300734, 3)
+loading data: 1 of 6 tiles, h28v11, year:2018, month:5, day:1, x:(10943600, 84), y:(10943600, 3)
+loading data: 1 of 6 tiles, h28v11, year:2018, month:7, day:4, x:(14580101, 84), y:(14580101, 3)
+loading data: 1 of 6 tiles, h28v11, year:2018, month:9, day:6, x:(18232372, 84), y:(18232372, 3)
+loading data: 1 of 6 tiles, h28v11, year:2018, month:11, day:1, x:(21882677, 84), y:(21882677, 3)
+building tree 1 of 16
+building tree 2 of 16building tree 3 of 16
+
+building tree 4 of 16building tree 5 of 16
+
+ building tree 6 of 16building tree 7 of 16
+
+building tree 8 of 16
+building tree 9 of 16building tree 10 of 16
+
+building tree 11 of 16
+ building tree 12 of 16
+building tree 13 of 16building tree 14 of 16
+ building tree 15 of 16
+ 
+building tree 16 of 16
+   (1 of 1 bands):   h28v11: train r squared: 0.99391
+loading data: 2 of 6 tiles, h29v12, year:2018, month:1, day:1, x:(3704899, 84), y:(3704899, 3)
+loading data: 2 of 6 tiles, h29v12, year:2018, month:3, day:2, x:(7407982, 84), y:(7407982, 3)
+loading data: 2 of 6 tiles, h29v12, year:2018, month:5, day:1, x:(11077646, 84), y:(11077646, 3)
+loading data: 2 of 6 tiles, h29v12, year:2018, month:7, day:4, x:(14667645, 84), y:(14667645, 3)
+loading data: 2 of 6 tiles, h29v12, year:2018, month:9, day:6, x:(18357337, 84), y:(18357337, 3)
+loading data: 2 of 6 tiles, h29v12, year:2018, month:11, day:1, x:(22063896, 84), y:(22063896, 3)
+building tree 1 of 16building tree 2 of 16
+
+building tree 3 of 16
+ building tree 4 of 16
+building tree 5 of 16
+ building tree 7 of 16
+building tree 6 of 16
+ building tree 8 of 16
+building tree 9 of 16
+building tree 10 of 16building tree 11 of 16
+
+building tree 12 of 16
+building tree 13 of 16
+building tree 15 of 16
+ building tree 16 of 16building tree 14 of 16
+
+   (1 of 1 bands):   h29v12: train r squared: 0.99411
+loading data: 3 of 6 tiles, h30v10, year:2018, month:1, day:1, x:(3211298, 84), y:(3211298, 3)
+loading data: 3 of 6 tiles, h30v10, year:2018, month:3, day:2, x:(6615301, 84), y:(6615301, 3)
+loading data: 3 of 6 tiles, h30v10, year:2018, month:5, day:1, x:(10259165, 84), y:(10259165, 3)
+loading data: 3 of 6 tiles, h30v10, year:2018, month:7, day:4, x:(13898304, 84), y:(13898304, 3)
+loading data: 3 of 6 tiles, h30v10, year:2018, month:9, day:6, x:(17544177, 84), y:(17544177, 3)
+loading data: 3 of 6 tiles, h30v10, year:2018, month:11, day:1, x:(21170256, 84), y:(21170256, 3)
+building tree 1 of 16
+building tree 2 of 16building tree 3 of 16
+
+building tree 4 of 16
+building tree 5 of 16
+ building tree 6 of 16
+ building tree 7 of 16
+building tree 8 of 16
+building tree 9 of 16building tree 10 of 16
+
+building tree 11 of 16
+building tree 12 of 16
+building tree 13 of 16
+ building tree 14 of 16
+ building tree 16 of 16building tree 15 of 16
+
+   (1 of 1 bands):   h30v10: train r squared: 0.99481
+loading data: 4 of 6 tiles, h30v12, year:2018, month:1, day:1, x:(2405501, 84), y:(2405501, 3)
+loading data: 4 of 6 tiles, h30v12, year:2018, month:3, day:2, x:(4800856, 84), y:(4800856, 3)
+loading data: 4 of 6 tiles, h30v12, year:2018, month:5, day:1, x:(7204533, 84), y:(7204533, 3)
+loading data: 4 of 6 tiles, h30v12, year:2018, month:7, day:4, x:(9564291, 84), y:(9564291, 3)
+loading data: 4 of 6 tiles, h30v12, year:2018, month:9, day:6, x:(11969804, 84), y:(11969804, 3)
+loading data: 4 of 6 tiles, h30v12, year:2018, month:11, day:1, x:(14380205, 84), y:(14380205, 3)
+building tree 1 of 16
+building tree 2 of 16
+building tree 3 of 16
+building tree 4 of 16
+building tree 5 of 16
+building tree 6 of 16building tree 7 of 16
+
+building tree 8 of 16
+building tree 9 of 16
+building tree 11 of 16building tree 12 of 16
+ building tree 10 of 16building tree 13 of 16
+
+ 
+building tree 15 of 16building tree 14 of 16
+ building tree 16 of 16
+
+   (1 of 1 bands):   h30v12: train r squared: 0.99667
+loading data: 5 of 6 tiles, h31v10, year:2018, month:1, day:1, x:(2719785, 84), y:(2719785, 3)
+loading data: 5 of 6 tiles, h31v10, year:2018, month:3, day:2, x:(3404514, 84), y:(3404514, 3)
+loading data: 5 of 6 tiles, h31v10, year:2018, month:5, day:1, x:(6365009, 84), y:(6365009, 3)
+loading data: 5 of 6 tiles, h31v10, year:2018, month:7, day:4, x:(9265630, 84), y:(9265630, 3)
+loading data: 5 of 6 tiles, h31v10, year:2018, month:9, day:6, x:(12238406, 84), y:(12238406, 3)
+loading data: 5 of 6 tiles, h31v10, year:2018, month:11, day:1, x:(15171704, 84), y:(15171704, 3)
+building tree 1 of 16 
+building tree 2 of 16
+building tree 3 of 16
+building tree 4 of 16
+building tree 5 of 16
+building tree 6 of 16
+building tree 7 of 16
+building tree 8 of 16
+building tree 9 of 16building tree 10 of 16
+ 
+building tree 11 of 16building tree 12 of 16
+building tree 13 of 16building tree 14 of 16
+
+
+ building tree 15 of 16building tree 16 of 16
+
+   (1 of 1 bands):   h31v10: train r squared: 0.99477
+loading data: 6 of 6 tiles, h31v11, year:2018, month:1, day:1, x:(4211201, 84), y:(4211201, 3)
+loading data: 6 of 6 tiles, h31v11, year:2018, month:3, day:2, x:(6943842, 84), y:(6943842, 3)
+loading data: 6 of 6 tiles, h31v11, year:2018, month:5, day:1, x:(11159053, 84), y:(11159053, 3)
+loading data: 6 of 6 tiles, h31v11, year:2018, month:7, day:4, x:(15371705, 84), y:(15371705, 3)
+loading data: 6 of 6 tiles, h31v11, year:2018, month:9, day:6, x:(19571686, 84), y:(19571686, 3)
+loading data: 6 of 6 tiles, h31v11, year:2018, month:11, day:1, x:(23800616, 84), y:(23800616, 3)
+building tree 1 of 16
+ building tree 2 of 16
+building tree 3 of 16
+building tree 4 of 16
+ building tree 5 of 16
+ building tree 6 of 16
+building tree 8 of 16building tree 7 of 16
+
+building tree 9 of 16
+ building tree 10 of 16
+building tree 11 of 16
+building tree 12 of 16building tree 13 of 16building tree 14 of 16
+
+
+building tree 15 of 16
+building tree 16 of 16
+   (1 of 1 bands):   h31v11: train r squared: 0.99704
+[0]
+testing 1 of 15, n_samples:0
+  h27v10: no test samples
+testing 2 of 15, n_samples:5279
+  (1 of 1 bands): h27v11: test r squared: 0.97037
+testing 3 of 15, n_samples:642183
+  (1 of 1 bands): h27v12: test r squared: 0.99304
+testing 4 of 15, n_samples:1
+  (1 of 1 bands): h28v10: test r squared: 0.00000
+testing 5 of 15, n_samples:3645564
+  (1 of 1 bands): h28v11: test r squared: 0.95914
+testing 6 of 15, n_samples:1648427
+  (1 of 1 bands): h28v12: test r squared: 0.98916
+testing 7 of 15, n_samples:872481
+  (1 of 1 bands): h29v10: test r squared: 0.99144
+testing 8 of 15, n_samples:5682958
+  (1 of 1 bands): h29v11: test r squared: 0.93963
+testing 9 of 15, n_samples:3703276
+  (1 of 1 bands): h29v12: test r squared: 0.99610
+testing 10 of 15, n_samples:3569644
+  (1 of 1 bands): h30v10: test r squared: 0.99655
+testing 11 of 15, n_samples:5730644
+  (1 of 1 bands): h30v11: test r squared: 0.96028
+testing 12 of 15, n_samples:2409098
+  (1 of 1 bands): h30v12: test r squared: 0.99746
+testing 13 of 15, n_samples:2635669
+  (1 of 1 bands): h31v10: test r squared: 0.99351
+testing 14 of 15, n_samples:4170787
+  (1 of 1 bands): h31v11: test r squared: 0.99123
+testing 15 of 15, n_samples:477903
+  (1 of 1 bands): h31v12: test r squared: 0.98726
+
+======================================================================================
+                  Resource Usage on 2019-04-05 19:29:40:
+   Job Id:             7386221.r-man2
+   Project:            z00
+   Exit Status:        0
+   Service Units:      84.12
+   NCPUs Requested:    16                     NCPUs Used: 16              
+                                           CPU Time Used: 49:59:36                                   
+   Memory Requested:   32.0GB                Memory Used: 26.3GB          
+   Walltime requested: 08:00:00            Walltime Used: 03:30:18        
+   JobFS requested:    500.0MB                JobFS used: 0B              
+======================================================================================

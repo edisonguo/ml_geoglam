@@ -1,0 +1,165 @@
+/g/data3/fr5/jxg900/ml_geoglam/dist_forest_time_tile_full_84_features/modis_dataset.py:38: RuntimeWarning: divide by zero encountered in log
+  bands_stack[:, ii:ii+7] = np.nan_to_num( np.log(bands_stack[:, :7]) )
+/g/data3/fr5/jxg900/ml_geoglam/dist_forest_time_tile_full_84_features/modis_dataset.py:53: RuntimeWarning: overflow encountered in multiply
+  bands_stack[:, ii] = np.nan_to_num( bands_stack[:, b+7] * bands_stack[:, b2+7] )
+/g/data3/fr5/jxg900/ml_geoglam/dist_forest_time_tile_full_84_features/modis_dataset.py:59: RuntimeWarning: invalid value encountered in divide
+  bands_stack[:, ii] = np.nan_to_num( (bands_stack[:, b2]-bands_stack[:, b]) / (bands_stack[:, b2]+bands_stack[:, b]) )
+/g/data3/fr5/jxg900/anaconda2/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning: overflow encountered in reduce
+  return umr_sum(a, axis, dtype, out, keepdims)
+[Parallel(n_jobs=-1)]: Done   5 out of  16 | elapsed: 36.3min remaining: 79.9min
+[Parallel(n_jobs=-1)]: Done   9 out of  16 | elapsed: 36.5min remaining: 28.4min
+[Parallel(n_jobs=-1)]: Done  13 out of  16 | elapsed: 36.6min remaining:  8.5min
+[Parallel(n_jobs=-1)]: Done  16 out of  16 | elapsed: 36.9min finished
+[Parallel(n_jobs=16)]: Done   5 out of  16 | elapsed:    4.2s remaining:    9.2s
+[Parallel(n_jobs=16)]: Done   9 out of  16 | elapsed:    4.2s remaining:    3.2s
+[Parallel(n_jobs=16)]: Done  13 out of  16 | elapsed:    4.2s remaining:    1.0s
+[Parallel(n_jobs=16)]: Done  16 out of  16 | elapsed:    4.3s finished
+[Parallel(n_jobs=-1)]: Done   5 out of  16 | elapsed: 36.2min remaining: 79.6min
+[Parallel(n_jobs=-1)]: Done   9 out of  16 | elapsed: 36.3min remaining: 28.3min
+[Parallel(n_jobs=-1)]: Done  13 out of  16 | elapsed: 36.5min remaining:  8.4min
+[Parallel(n_jobs=-1)]: Done  16 out of  16 | elapsed: 37.4min finished
+[Parallel(n_jobs=32)]: Done   4 out of  32 | elapsed:    5.0s remaining:   35.3s
+[Parallel(n_jobs=32)]: Done  11 out of  32 | elapsed:    5.4s remaining:   10.3s
+[Parallel(n_jobs=32)]: Done  18 out of  32 | elapsed:    5.5s remaining:    4.3s
+[Parallel(n_jobs=32)]: Done  25 out of  32 | elapsed:    5.7s remaining:    1.6s
+[Parallel(n_jobs=32)]: Done  32 out of  32 | elapsed:    6.0s remaining:    0.0s
+[Parallel(n_jobs=32)]: Done  32 out of  32 | elapsed:    6.0s finished
+[Parallel(n_jobs=-1)]: Done   5 out of  16 | elapsed: 33.9min remaining: 74.7min
+[Parallel(n_jobs=-1)]: Done   9 out of  16 | elapsed: 34.1min remaining: 26.5min
+[Parallel(n_jobs=-1)]: Done  13 out of  16 | elapsed: 34.5min remaining:  8.0min
+[Parallel(n_jobs=-1)]: Done  16 out of  16 | elapsed: 34.9min finished
+[Parallel(n_jobs=48)]: Done   3 out of  48 | elapsed:    7.3s remaining:  1.8min
+[Parallel(n_jobs=48)]: Done  13 out of  48 | elapsed:    7.3s remaining:   19.6s
+[Parallel(n_jobs=48)]: Done  23 out of  48 | elapsed:    7.6s remaining:    8.2s
+[Parallel(n_jobs=48)]: Done  33 out of  48 | elapsed:    7.9s remaining:    3.6s
+[Parallel(n_jobs=48)]: Done  43 out of  48 | elapsed:    8.2s remaining:    1.0s
+[Parallel(n_jobs=48)]: Done  48 out of  48 | elapsed:    8.3s finished
+[Parallel(n_jobs=-1)]: Done   5 out of  16 | elapsed: 22.9min remaining: 50.5min
+[Parallel(n_jobs=-1)]: Done   9 out of  16 | elapsed: 23.0min remaining: 17.9min
+[Parallel(n_jobs=-1)]: Done  13 out of  16 | elapsed: 23.2min remaining:  5.3min
+[Parallel(n_jobs=-1)]: Done  16 out of  16 | elapsed: 23.7min finished
+[Parallel(n_jobs=64)]: Done   2 out of  64 | elapsed:    7.6s remaining:  4.0min
+[Parallel(n_jobs=64)]: Done  15 out of  64 | elapsed:    7.7s remaining:   25.0s
+[Parallel(n_jobs=64)]: Done  28 out of  64 | elapsed:    7.7s remaining:    9.9s
+[Parallel(n_jobs=64)]: Done  41 out of  64 | elapsed:    7.7s remaining:    4.3s
+[Parallel(n_jobs=64)]: Done  54 out of  64 | elapsed:    7.9s remaining:    1.5s
+[Parallel(n_jobs=64)]: Done  64 out of  64 | elapsed:    8.1s finished
+[Parallel(n_jobs=-1)]: Done   5 out of  16 | elapsed: 23.9min remaining: 52.5min
+[Parallel(n_jobs=-1)]: Done   9 out of  16 | elapsed: 24.0min remaining: 18.6min
+[Parallel(n_jobs=-1)]: Done  13 out of  16 | elapsed: 24.1min remaining:  5.6min
+[Parallel(n_jobs=-1)]: Done  16 out of  16 | elapsed: 24.6min finished
+[Parallel(n_jobs=64)]: Done   4 out of  80 | elapsed:    6.0s remaining:  1.9min
+[Parallel(n_jobs=64)]: Done  21 out of  80 | elapsed:    7.1s remaining:   19.9s
+[Parallel(n_jobs=64)]: Done  38 out of  80 | elapsed:    7.6s remaining:    8.5s
+[Parallel(n_jobs=64)]: Done  55 out of  80 | elapsed:    8.1s remaining:    3.7s
+[Parallel(n_jobs=64)]: Done  72 out of  80 | elapsed:    9.8s remaining:    1.1s
+[Parallel(n_jobs=64)]: Done  80 out of  80 | elapsed:   10.0s finished
+[Parallel(n_jobs=-1)]: Done   5 out of  16 | elapsed: 40.2min remaining: 88.4min
+[Parallel(n_jobs=-1)]: Done   9 out of  16 | elapsed: 40.4min remaining: 31.4min
+[Parallel(n_jobs=-1)]: Done  13 out of  16 | elapsed: 40.6min remaining:  9.4min
+[Parallel(n_jobs=-1)]: Done  16 out of  16 | elapsed: 41.2min finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:   12.6s remaining:  2.0min
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:   13.7s remaining:   31.8s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:   13.8s remaining:   13.2s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:   19.4s remaining:    7.6s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:   20.1s remaining:    1.6s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:   20.3s finished
+
+real	213m43.168s
+user	3070m46.189s
+sys	41m7.968s
+/g/data3/fr5/jxg900/ml_geoglam/dist_forest_time_tile_full_84_features/modis_dataset.py:38: RuntimeWarning: divide by zero encountered in log
+  bands_stack[:, ii:ii+7] = np.nan_to_num( np.log(bands_stack[:, :7]) )
+/g/data3/fr5/jxg900/ml_geoglam/dist_forest_time_tile_full_84_features/modis_dataset.py:53: RuntimeWarning: overflow encountered in multiply
+  bands_stack[:, ii] = np.nan_to_num( bands_stack[:, b+7] * bands_stack[:, b2+7] )
+/g/data3/fr5/jxg900/ml_geoglam/dist_forest_time_tile_full_84_features/modis_dataset.py:59: RuntimeWarning: invalid value encountered in divide
+  bands_stack[:, ii] = np.nan_to_num( (bands_stack[:, b2]-bands_stack[:, b]) / (bands_stack[:, b2]+bands_stack[:, b]) )
+[Parallel(n_jobs=64)]: Done   3 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    0.1s finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    0.1s remaining:    0.9s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    0.5s remaining:    1.2s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    0.5s remaining:    0.5s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    0.5s remaining:    0.2s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    0.5s remaining:    0.0s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    0.6s finished
+[Parallel(n_jobs=64)]: Done   5 tasks      | elapsed:    0.0s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    0.0s remaining:    0.0s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    0.1s remaining:    0.0s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    0.1s finished
+/g/data3/fr5/jxg900/anaconda2/lib/python2.7/site-packages/numpy/core/_methods.py:32: RuntimeWarning: overflow encountered in reduce
+  return umr_sum(a, axis, dtype, out, keepdims)
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    1.4s remaining:   13.1s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    2.2s remaining:    5.1s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    2.3s remaining:    2.2s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    2.4s remaining:    0.9s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    2.7s remaining:    0.2s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    2.8s finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    0.3s remaining:    2.6s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    0.9s remaining:    2.2s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    1.0s remaining:    0.9s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    1.0s remaining:    0.4s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    1.1s remaining:    0.1s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    1.2s finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    0.2s remaining:    1.5s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    0.5s remaining:    1.1s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    0.5s remaining:    0.5s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    0.5s remaining:    0.2s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    0.6s remaining:    0.0s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    0.6s finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    2.9s remaining:   27.6s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    2.9s remaining:    6.7s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    2.9s remaining:    2.8s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    3.7s remaining:    1.5s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    4.1s remaining:    0.3s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    4.2s finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    1.2s remaining:   11.4s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    2.3s remaining:    5.3s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    2.3s remaining:    2.2s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    2.3s remaining:    0.9s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    2.7s remaining:    0.2s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    2.8s finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    0.4s remaining:    4.3s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    2.2s remaining:    5.0s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    2.2s remaining:    2.1s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    2.2s remaining:    0.9s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    2.6s remaining:    0.2s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    2.7s finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    3.1s remaining:   29.6s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    3.1s remaining:    7.1s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    3.1s remaining:    2.9s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    4.0s remaining:    1.6s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    4.3s remaining:    0.3s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    4.4s finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    0.4s remaining:    4.2s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    1.4s remaining:    3.1s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    1.6s remaining:    1.5s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    1.7s remaining:    0.7s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    1.9s remaining:    0.1s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    1.9s finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    0.5s remaining:    5.1s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    1.4s remaining:    3.3s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    1.5s remaining:    1.5s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    1.7s remaining:    0.7s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    2.0s remaining:    0.2s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    2.1s finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    2.4s remaining:   23.2s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    2.5s remaining:    5.7s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    2.5s remaining:    2.4s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    2.8s remaining:    1.1s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    3.5s remaining:    0.3s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    3.5s finished
+[Parallel(n_jobs=64)]: Done   9 out of  96 | elapsed:    0.1s remaining:    0.6s
+[Parallel(n_jobs=64)]: Done  29 out of  96 | elapsed:    0.2s remaining:    0.4s
+[Parallel(n_jobs=64)]: Done  49 out of  96 | elapsed:    0.3s remaining:    0.3s
+[Parallel(n_jobs=64)]: Done  69 out of  96 | elapsed:    0.3s remaining:    0.1s
+[Parallel(n_jobs=64)]: Done  89 out of  96 | elapsed:    0.4s remaining:    0.0s
+[Parallel(n_jobs=64)]: Done  96 out of  96 | elapsed:    0.4s finished
+
+real	5m43.522s
+user	7m56.671s
+sys	3m54.422s

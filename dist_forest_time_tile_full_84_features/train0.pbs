@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -P z00
+#PBS -q normalsl
+#PBS -l ncpus=16
+#PBS -l walltime=8:00:00
+#PBS -l mem=32GB
+
+cd /g/data3/fr5/jxg900/ml_geoglam/dist_forest_time_tile_full_84_features
+python=../../anaconda2/bin/python
+
+export PYTHONUNBUFFERED=1
+
+band_id=0
+echo "band_id: $band_id"
+
+time $python rf_train.py $band_id
+time $python rf_test.py $band_id
