@@ -4,7 +4,7 @@ For the technical discussion of this project, please refer [here](technical.md)
 
 # Directory structures
 
-* `dist_forest_time_tile_full_84_features` contains the training and test code for the main experiment.	
+* `dist_forest_time_tile_full_84_features` contains the training and test code for the main experiment. More experiments may be added later.	
 
 * `geoglam` contains the code that computes Geoglam fractional cover (FC) products using the trained models. This geoglam code base is a fork from [here](https://github.com/nci/geoglam). The only [code changes](geolam/fc_prod/main.py#L181) are using the trained random forest model instead of the original non-negative least square (nnls) solution.
 
