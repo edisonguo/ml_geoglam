@@ -1,12 +1,12 @@
 # Geoglam with Machine Learning
 
-For the technical discussion of this project,please refer [here](technical.md)
+For the technical discussion of this project, please refer [here](technical.md)
 
 # Directory structures
 
 * `dist_forest_time_tile_full_84_features` contains the training and test code for the main experiment.	
 
-* `geoglam` contains the code that computes Geoglam fractional cover (FC) products using the trained models. The geoglam is a fork from [here](https://github.com/nci/geoglam). The only [code changes](geolam/fc_prod/main.py#L181) are using the trained random forest model instead of the original non-negative least square (nnls) solution.
+* `geoglam` contains the code that computes Geoglam fractional cover (FC) products using the trained models. This geoglam code base is a fork from [here](https://github.com/nci/geoglam). The only [code changes](geolam/fc_prod/main.py#L181) are using the trained random forest model instead of the original non-negative least square (nnls) solution.
 
 * `visualisation/vis.sh` contains code that creates a mosaic GeoTiff image of Australia for visually inspect the model outputs.
 
@@ -16,8 +16,14 @@ For the technical discussion of this project,please refer [here](technical.md)
 
 * `inference_australia.sh` calls `inference_geoglam.sh` to [compute the FC products](geolam/fc_prod/main.py#L181) using the trained random forest models.
 
-# Training random forests
+# Training
 
-The files for training are under `dist_forest_time_tile_full_84_features`. The random forest models on trained on [NCI's](http://nci.org.au/systems-services/peak-system/raijin) raijin HPC systems. The training is distributed across three nodes for each Geoglam band (i.e. `pv`, `npv`, `bare_soil`). The PBS scripts for submitting the training jobs are `train*.pbs`. `rf*.model` are the saved trained random forest models. The training logs can be found under `logs`.
+* The files related to training are under `dist_forest_time_tile_full_84_features`. 
+
+* The random forest models are trained on NCI's [raijin](http://nci.org.au/systems-services/peak-system/raijin) HPC systems. The training is distributed across three nodes for each Geoglam band (i.e. `pv`, `npv`, `bare_soil`). The PBS scripts for submitting the training jobs are `train*.pbs`. 
+
+* `rf*.model` are the pre-trained random forest models, which can be applied directly for inference. 
+
+* The training logs can be found under `logs`.
 
 For detailed training methodology and experimental setup, please refer to the [technical discussion](technical.md).
